@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const db_name = "finance_tracker";
+const db_name = "login_reg_demo_jan";
 
 mongoose.connect(`mongodb://localhost/${db_name}`, {
     useNewUrlParser: true,
